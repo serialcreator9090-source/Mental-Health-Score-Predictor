@@ -25,7 +25,7 @@ form.addEventListener("submit", async function(event) {
     output.textContent = "Generating prediction...";
 
     try {
-        const response = await fetch("https://mental-health-score-predictor-opa6.onrender.com/predict"", {
+        const response = await fetch("https://mental-health-score-predictor-opa6.onrender.com/predict", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
